@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
 }
 
 .logo {
@@ -11,9 +17,25 @@
   padding: 4px 32px;
 }
 
+/* .left-links {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+} */
+
+/* .right-links {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+} */
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 1em;
+  padding-left: 0;
+  margin: 0;
 }
 
 a {
@@ -23,3 +45,6 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+
