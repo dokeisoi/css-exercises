@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  border: 2px solid black;
 }
 
 .title {
@@ -24,3 +25,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.one, .two, .three, .four {
+  max-width: 200px;
+}
+
+
+
