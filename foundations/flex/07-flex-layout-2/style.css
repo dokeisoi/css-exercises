@@ -22,6 +22,8 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-basis: 300px;
+  flex-shrink: 0;
 }
 
 .card {
