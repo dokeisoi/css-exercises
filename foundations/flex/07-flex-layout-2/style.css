@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -36,4 +37,16 @@ body {
   display: flex;
   flex-grow: 1;
 }
+
+.cards {
+  padding: 48px;
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 250px;
+}
+
 
