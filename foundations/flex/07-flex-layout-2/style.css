@@ -11,12 +11,20 @@ body {
   background: darkmagenta;
   color: white;
   display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
@@ -25,6 +33,8 @@ body {
   box-sizing: border-box;
   flex-basis: 300px;
   flex-shrink: 0;
+  font-size: 24px;
+  padding: 24px;
 }
 
 .card {
@@ -47,6 +57,21 @@ body {
 
 .card {
   flex-basis: 250px;
+  padding: 10px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 15px;
+}
 
